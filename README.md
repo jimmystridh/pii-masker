@@ -1,11 +1,19 @@
 # `pii-masker`
 
+[crates.io](https://crates.io/crates/pii-masker) | [docs.rs](https://docs.rs/pii-masker) | [GitHub](https://github.com/jimmystridh/pii-masker)
+
 Rust port of the HydroXai `pii-masker` library, built around the same DeBERTa token-classification model and packaged as both:
 
 - a reusable Rust library
 - a stdin-friendly CLI
 
 This crate is model-only. It does not add a regex fallback layer on top of the model output.
+
+Install from crates.io:
+
+```bash
+cargo add pii-masker
+```
 
 ## What Is Bundled
 
